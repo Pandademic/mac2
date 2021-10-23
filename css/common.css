@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+input[type='password']{
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .7);
+    animation-fill-mode: blur(10px);
+    backdrop-filter: blur(10px);
+    color:purple; 
+}
