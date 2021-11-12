@@ -1,10 +1,12 @@
 correctPWD="abd124"
 pwd='';
+ghRepoURL='https://github.com/Pandademic/mac2/';
 function lock(){
-    window.location = 'lock.html'
+    console.log("locking");
+    window.location = 'lock';
 }
 function github(){
-    window.location= 'https://github.com/Pandademic/mac2'
+    window.location=ghRepoURL;
 }
 function login(){
     pwd=document.getElementById('pwd-box').value;
@@ -13,6 +15,6 @@ function login(){
     }
     else{
         console.error("incorrect password");
-        window.location="lock.html";
+        lock();
     }
 }
