@@ -4,3 +4,6 @@ function lock(){
 function shutdown(){
     close();
 }
+function Github(){
+    window.location= 'https://github.com/Pandademic/mac2'
+}
