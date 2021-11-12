@@ -1,5 +1,5 @@
 correctPWD="abd124"
-pwd;
+pwd='';
 function lock(){
     window.location = 'lock.html'
 }
