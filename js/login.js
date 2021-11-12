@@ -2,8 +2,9 @@ function lock(){
     window.location = 'lock.html'
 }
 function shutdown(){
-    close();
+   document.getElementById('app').style.animation = "fade";
+   
 }
-function Github(){
+function github(){
     window.location= 'https://github.com/Pandademic/mac2'
 }
