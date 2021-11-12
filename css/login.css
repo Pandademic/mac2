@@ -11,3 +11,12 @@ body{
     margin-top:10px;
     float:center;
 }
+@keyframes fade {
+    from{
+        background-color:black;
+        background-image:none;
+    }
+    to{
+       display:none; 
+    }
+} 
