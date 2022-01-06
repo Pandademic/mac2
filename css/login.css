@@ -11,12 +11,10 @@ body{
     margin-top:10px;
     float:center;
 }
-@keyframes fade {
-    from{
-        background-color:black;
-        background-image:none;
-    }
-    to{
-       display:none; 
-    }
-} 
+input[type='password']{
+  border-radius: 25px;
+  background: rgba(255, 255, 255, .7);
+  animation-fill-mode: blur(10px);
+  backdrop-filter: blur(10px);
+  color:purple; 
+}
